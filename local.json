@@ -1,0 +1,9 @@
+{
+    "domain": "localhost",
+    "publicDomain": "wat.com",
+    "port": 3181,
+    "cookie": "secret",
+    "analytics": false,
+    "webpack_port": "8180",
+    "SECRET": "<make me a random string>"
+}

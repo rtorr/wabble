@@ -1,0 +1,8 @@
+.DS_Store
+.idea
+
+# Temp files
+node_modules
+public/dist/css/_bundle.css
+public/dist/js/_bundle.js
+npm-debug.log

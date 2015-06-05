@@ -1,0 +1,11 @@
+doctype html
+html
+    head
+        title Customer Demo Site
+        meta(charset='utf-8')
+        meta(content='width=device-width, height=device-height, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0', name='viewport')
+        meta(content='yes', name='apple-mobile-web-app-capable')
+    body
+        block content
+        script(type='text/javascript', src='http://#{host}:#{port}/webpack-dev-server.js')
+        script(type='text/javascript', src='http://#{host}:#{port}/public/dist/js/_bundle.js')

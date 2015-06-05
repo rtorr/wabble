@@ -1,0 +1,31 @@
+{
+  "env": {
+    "node": true,
+    "browser": true,
+    "amd": true,
+    "es6": true,
+    "jasmine": true
+  },
+  "ecmaFeatures": {
+    "jsx": true
+  },
+  "globals": {
+  },
+  "plugins": [
+    "react"
+  ],
+  "rules": {
+    "quotes": [
+      4,
+      "single"
+    ],
+    "strict": [2, "never"],
+    "no-trailing-spaces": 0,
+    "no-underscore-dangle": 0,
+    "no-unused-vars": 0,
+    "camelcase": 0,
+    "eol-last": 0,
+    "space-infix-ops": 0,
+    "new-cap": 0
+  }
+}
